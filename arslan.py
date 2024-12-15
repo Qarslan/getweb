@@ -13,7 +13,7 @@ import telepot
 init(autoreset=True)
 
 # Limit run (batas jumlah eksekusi program)
-MAX_RUNS = 25
+MAX_RUNS = 10000000000000000
 current_runs = 0
 
 # Telegram Bot Token dan ID Chat
@@ -72,14 +72,14 @@ def check_file_changes():
 # Tampilkan banner seram
 def display_banner():
     os.system('clear' if os.name == 'posix' else 'cls')
-    banner = pyfiglet.figlet_format("Web Copier", font="slant")
+    banner = pyfiglet.figlet_format("GET WEB COPIER", font="slant")
     print(Fore.RED + banner)
-    print(Fore.YELLOW + "=== Full Website copy by irfa===\n")
+    print(Fore.YELLOW + "=== Full Website copy by arslan===\n")
     
     # Informasi Pembuat
-    print(Fore.CYAN + "Program ini dibuat oleh: Irfa\n")
+    print(Fore.CYAN + "Program ini dibuat oleh: ArsLanSlan\n")
     print(Fore.YELLOW + "YouTube: Hellboy\n")
-    print(Fore.MAGENTA + "GitHub: https://github.com/irfaf\n")
+    print(Fore.MAGENTA + "GitHub: https://github.com/Qarslan\n")
     print(Fore.GREEN + "Terima kasih telah menggunakan program ini!\n")
     
     # Mengecek jumlah eksekusi
