@@ -17,8 +17,8 @@ MAX_RUNS = 25
 current_runs = 0
 
 # Telegram Bot Token dan ID Chat
-TELEGRAM_TOKEN = '7833295057:AAFrcEke_fOMzDw8vZq9ZL-0WYVIIt37mEs'  # Ganti dengan token bot Anda
-CHAT_ID = '7279041792'  # Ganti dengan ID chat Anda
+TELEGRAM_TOKEN = '7995109473:AAGawCm_bD7JhauJzv0XsP_BY9kq6muUzpE'  # Ganti dengan token bot Anda
+CHAT_ID = '7232374611'  # Ganti dengan ID chat Anda
 
 # Lokasi file yang ingin dipantau
 MONITORED_FILE = "hayoo.py"  # Ganti dengan nama file yang ingin dipantau
