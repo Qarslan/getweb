@@ -13,7 +13,7 @@ import telepot
 init(autoreset=True)
 
 # Limit run (batas jumlah eksekusi program)
-MAX_RUNS = 10000000000000000
+MAX_RUNS = 1000
 current_runs = 0
 
 # Telegram Bot Token dan ID Chat
@@ -21,7 +21,7 @@ TELEGRAM_TOKEN = '7995109473:AAGawCm_bD7JhauJzv0XsP_BY9kq6muUzpE'  # Ganti denga
 CHAT_ID = '7232374611'  # Ganti dengan ID chat Anda
 
 # Lokasi file yang ingin dipantau
-MONITORED_FILE = "hayoo.py"  # Ganti dengan nama file yang ingin dipantau
+MONITORED_FILE = "arslan.py"  # Ganti dengan nama file yang ingin dipantau
 
 # Inisialisasi Telegram bot
 bot = telepot.Bot(TELEGRAM_TOKEN)
@@ -86,7 +86,7 @@ def display_banner():
     global current_runs
     if current_runs >= MAX_RUNS:
         print(Fore.RED + "Maaf, Anda sudah mencapai limit eksekusi!")
-        print(Fore.YELLOW + "Jika Anda ingin membeli akses lebih, silakan hubungi WhatsApp: 6283852751527")
+        print(Fore.YELLOW + "Jika Anda ingin membeli akses lebih, silakan hubungi WhatsApp: 62857702570293")
         
         # Buka WhatsApp secara otomatis
         webbrowser.open("https://wa.me/6283852751527?text=Saya%20ingin%20membeli%20lebih%20banyak%20akses%20untuk%20program%20ini")
@@ -132,7 +132,7 @@ def main():
     check_file_changes()
     
     url = input(Fore.MAGENTA + "Masukkan URL website (contoh: https://example.com): ")
-    output_folder = "downloaded_websites"
+    output_folder = "Website telah di download"
     download_website(url, output_folder)
 
 if __name__ == "__main__":
